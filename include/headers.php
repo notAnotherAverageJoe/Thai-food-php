@@ -31,7 +31,7 @@ $restaurant_name = "Thai Food Yum Restaurant";
                                 Our Menu
                             </a>
                             <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                <li><a class="dropdown-item" href="#specials">Our Specials</a></li>
+                                <li><a class="dropdown-item" href="/specials.php">Our Specials</a></li>
                                 <li><a class="dropdown-item" href="/menu.php">Full Menu</a></li>
                             </ul>
                         </li>

@@ -209,10 +209,11 @@ h2 {
     background-color: #fff;
     border: 1px solid #ccc;
     border-radius: 10px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Initial box shadow */
     padding: 10px;
     text-align: center;
     overflow: hidden; /* Ensure content stays within the border */
+    transition: box-shadow 0.3s ease; /* Transition effect for box-shadow */
 }
 
 .menu-list img {
@@ -233,6 +234,11 @@ h2 {
 .menu-list p {
     color: #666;
 }
+
+.menu-list:hover {
+    box-shadow: 0 0px 12px #ff9800; /* Increase shadow size on hover */
+}
+
 
 /* Centered text */
 .center-text {
