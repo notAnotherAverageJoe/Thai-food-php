@@ -6,6 +6,13 @@ body {
     padding: 0;
 }
 
+
+#front_page {
+    background-color: rgba(255, 152, 0, 0.5); /* rgba color for translucency */
+    padding: 10px; /* add padding for better visibility */
+    border-radius: 15px; /* rounded corners */
+}
+
 header {
     background: #ff9800;
     color: #fff;
@@ -58,6 +65,7 @@ nav ul li a {
 
     nav ul {
         flex-direction: row;
+        align-items: center;
     }
 
     nav ul li {
