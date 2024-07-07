@@ -1,0 +1,42 @@
+# Ignore vendor directory managed by Composer
+/vendor/
+
+# Ignore environment-specific files
+.env
+
+# Ignore PHP error logs
+*.log
+error_log
+
+# Ignore session files
+/session/
+
+# Ignore IDE files and directories
+.vscode/
+.idea/
+*.iml
+
+# Ignore composer.lock file
+composer.lock
+
+# Ignore node_modules if using Node.js
+node_modules/
+
+# Ignore cache and temporary files
+/cache/
+/tmp/
+*.swp
+
+# Ignore database configuration
+/config/database.php
+
+# Ignore sensitive or local configuration files
+/config/config.local.php
+
+# Ignore build artifacts and compiled files
+/build/
+*.phar
+
+# Ignore any other generated files and directories
+/public/uploads/
+/logs/
