@@ -1,5 +1,5 @@
 <?php
-$restaurant_name = "Thai Food Yum Restaurant";
+$restaurant_name = "🍜 Thai Food Yum Restaurant";
 ?>
 
 <!DOCTYPE html>
