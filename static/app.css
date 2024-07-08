@@ -244,3 +244,10 @@ h2 {
 .center-text {
     text-align: center;
 }
+
+
+
+.carousel-item img {
+    max-height: 500px; /* Adjust the height as needed */
+    object-fit: cover; /* This will ensure the images cover the carousel item without stretching */
+}
