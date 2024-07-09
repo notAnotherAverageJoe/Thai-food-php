@@ -4,8 +4,8 @@
 
     <h1 id="front_page"> <?= $restaurant_name ?></h1>
     <p>Experience the authentic taste of Thailand.</p>
-    <a href="/menu.php" class="btn">View Menu</a>
-    <a href="/order.php" class="order_btn">Order Online!</a>
+    <a href="/order.php" class="btn">View Menu</a>
+
 
 
 </section>
