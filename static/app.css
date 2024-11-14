@@ -287,8 +287,6 @@ h2 {
     border-radius: 10px;
     margin-bottom: 20px;
 }
-
-
 .menu-list-container {
     display: flex;
     flex-direction: column;
@@ -316,7 +314,9 @@ h2 {
 }
 
 .menu-list img {
-    max-width: 100%;
-    height: auto;
+    width: 200px; /* Set the width to 200px */
+    height: 200px; /* Set the height to 200px */
+    object-fit: cover; /* Ensure the image covers the entire area without distorting */
     border-radius: 8px;
 }
+
